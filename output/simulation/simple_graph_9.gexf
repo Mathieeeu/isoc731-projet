@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2">
+<graph node="static" defaultedgetype="undirected">
+<attributes class="node" mode="static">
+<attribute id="0" title="Value" type="integer"/>
+</attributes>
+<attributes class="edge" mode="static">
+<attribute id="0" title="Weight" type="integer"/>
+</attributes>
+<nodes>
+<node id="9" label="9">
+<attvalues>
+<attvalue for="0" value="10"/>
+</attvalues>
+</node>
+<node id="8" label="8">
+<attvalues>
+<attvalue for="0" value="8"/>
+</attvalues>
+</node>
+<node id="7" label="7">
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</node>
+<node id="6" label="6">
+<attvalues>
+<attvalue for="0" value="10"/>
+</attvalues>
+</node>
+<node id="5" label="5">
+<attvalues>
+<attvalue for="0" value="7"/>
+</attvalues>
+</node>
+<node id="4" label="4">
+<attvalues>
+<attvalue for="0" value="6"/>
+</attvalues>
+</node>
+<node id="3" label="3">
+<attvalues>
+<attvalue for="0" value="4"/>
+</attvalues>
+</node>
+<node id="2" label="2">
+<attvalues>
+<attvalue for="0" value="4"/>
+</attvalues>
+</node>
+<node id="1" label="1">
+<attvalues>
+<attvalue for="0" value="2"/>
+</attvalues>
+</node>
+<node id="0" label="0">
+<attvalues>
+<attvalue for="0" value="0"/>
+</attvalues>
+</node>
+</nodes>
+<edges>
+<edge id="0" source="0" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="1" source="1" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="2" source="2" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="3" source="3" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="4" source="4" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="5" source="5" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="6" source="6" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="7" source="6" target="9" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+<edge id="8" source="7" target="8" >
+<attvalues>
+<attvalue for="0" value="1"/>
+</attvalues>
+</edge>
+</edges>
+</graph>
+</gexf>

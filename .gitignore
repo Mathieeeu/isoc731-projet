@@ -4,6 +4,4 @@
 *.vcxproj
 *.filters
 *.user
-build/*
-
-**/x64/Debug/**
+**/build
