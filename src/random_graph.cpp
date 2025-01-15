@@ -11,7 +11,7 @@ int main() {
         CGraph graph;
         graph.addMultipleNodes(100);
         graph.addRandomEdges(p);
-        std::cout << "p=" << p << "\t: " << (float)graph.getLargestConnectedComponent().size() / (float)graph.getNodes().size()*100.0 << "%" << std::endl;
+        std::cout << "p=" << p << "\t: " << (float)graph.getLargestConnectedComponent().size() / (float)graph.getNodes().size()*100.0 << "%" << "\t: " << graph.getMaxDegree() << std::endl;
     }
 
     // std::cout << "Nombre de noeuds : " << graph.getNodes().size() << std::endl;

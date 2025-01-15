@@ -38,7 +38,7 @@ int main() {
         // deco aléatoire + maj karma
         graph.disconnectRandomNodes();
         // reco aléatoire 
-        graph.connectRandomNodes();
+        graph.connectNodes();
         // // Affiche final
         graph.exportToGEXF("../output/simulation/advanced_graph_"+ std::to_string(n++) +".gexf");
     }

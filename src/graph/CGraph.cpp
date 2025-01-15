@@ -196,7 +196,7 @@ public:
     }
 
     // connexion aléatoire parmi les noeuds
-    void connectRandomNodes() {
+    void connectNodes() {
         int N = m_nodes.size();
         for (int i = 0; i < N; i++) {
             connectToHighestKarma(i);
